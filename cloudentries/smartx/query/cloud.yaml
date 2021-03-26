@@ -1,0 +1,49 @@
+CloudEntryType:
+  id: "smartx"
+  description: "为了管理SmartX云平台内的资源，需要您提供SmartX地址、管理员用户名和密码等信息来访问您的SmartX。"
+  name: "SmartX"
+  category: "cloudPlatform"
+  sequence: 60
+  icon: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAA+FJREFUSA21lVtIk2EYx99v++ZpOnXzmDohTUUhEDGqsYogou4KuqyQEKLrqKsuooiou6CbDndFVHexCGJ1UeKNuMo8IU7zkNrwuHSbOme/56utEXN1kS98fN/ew/95nv///7zTNjc3zWobh2kbsQ3obQ+gxysYHh62T01NnV1aWtpVV1d3v76+/iNrm/H1dO/u7m5TaWlpc1dX182CgoJhvq83NjZOyXmtr68vd3Fx8eDQ0NDlmZkZdzQaVfn5+WNNTU1XnU6np7a2diFNINPo6Kh9bGzstM/nuxYMBrPQVFVVVS1z/mJubu4zzePx3O3t7W3b2NjINpl+MiabGLGKioq3JSUl94qLiztaWlpmZU4WJONYLFYWCoUOjY+PX56cnGyKRCJK0zRZVnLeYrEognSY3W737ZWVlR1m828zyUYeDbp2Ut1RwMqhMMDZ+dXVVevIyMieQCBww+/3XwK8hOQS4BJAznNGra2tOXVGSCZSDakoHA7bAGwrLy8/DIW3CFqGVlf4NjLd6qzgyXmdSL9TT4oiGciGnJwcVVhYKO9q6Lg7MTGhqMLIMh24rAlVekZGRhB61vlhEXyZlEUBtlqtIriUqhBTIaIRNB2wYMg6TxTs7zrZPeGgGZDdPDYRR8CLioqUcAvXanZ21uA0bgIBSTUEWCrHPRHA+6D1pUbG5oGBgVY8fJpKLkj52dnZCuENcDRQyQZIBSxzAo6eCufJ/uetra0PGhoa3hgBenp6shjNOOY9fla8FRaMl7oVZmJeKsPKKi8vT9GkimZz8+2jglXN6/U6yPgYVZwnW9e/0hFHF53oXJWZmWloJLQyPGT/iIpea08ZOMNFB1csLy//Ex2SsdBot9uNt3T/3Nyc4S4JAHAMLb9WVla+0Ofn508AbBFx/sa1ACOeQUXcBAsLCwad6+vrBqWCga4mtKyiZ87oRLTErRkvO9Vb3IVOXxAxwreTxHIAUAIs5/90mMzx5OnykW6IMwCcczgc45R8BwvOcD2cw2V7oaYM9+jioFRDsHXU9lNmzS9xEvsEGLAAffKOC++VzWbzulyub2zY6Ozs9LG2f3p6+jiX3AGC7WI+8d/yK+koOn0yt7e3hwCPUWI1vBndjCOiZPwG4Me44SG268DXcm0btynXcRg7jtKYn5mbRD+Kie7gyZJqaNQJEngJnQ81roAsHNDY399/kkyOEKyIyK/5H3iC/T7wxxMCZMtBFZlg1A0ODp7C5keofBFWPDU1NV6S9BuNJqe5jq1s3gddhVDxnkWhI71ASWG5uh0EaSbzIE33mX+0sCwnAiTt/a+fCWH+K2oS2A9wxRPu5H6K6wAAAABJRU5ErkJggg=="
+  iconColor: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAABLBJREFUSA3VVl1sk1UYfs731+6HtrRbaQesMhhzG5nMIuLqsCGZBG8QE6I3xCzcGLzxwsiFMdFojD+JFyZEI+EORRkJCY7MTMYGG8gSB2wDQRkCG9u6tWu3dVvbr9/3Hd/TUeHCjSsufJOT7+S853ne97x/+RjnXMYTFOkJcueon7gBJf+CbnS7/xr7+80xfbJyx8qGwyFn6CrpeF6/3LcPkPQI6r8ZwGfrnRiqKcUneyswJvCsk3cWRyLxl7pmzh28nrnZaJomvDbvvV2upo+2Sptb60frpxGEtYQBqfcO3O0x7DtyAx/fS8Iu7m31Yu71jXi3QMJx9vnwV4d+iZ1tzrJMgQI1x2PBpK9k1TqqzlYpG79bW7iqJ3AvEAsGgzlDLS1/yHPP1qy6GUP46iQOnptEbSZNkHy5EFzVgDc2oEcu3V/2ZdxKlKkPyIUFBokW2JgRqbifGdtpMPhHiycmtWgiMTZZWXSSlW69FsWnp8bxXn8EXlME8tFs0t4ygGkD5YoqawtMF3SC+qFwOlBNDbNsxnExdaF5s7x5x0Xs+WJgHL6+CXwwmKC7gjjv9UPo4o747LSUXB/QhtNiBMhnlVPYJTpwy06s4tVQFpoCbbHAobMjgLnwgJgwywk9AkqBZJtlspRlJldz5ALEOZxyIZFvgEMPIRoN4/SIA+PzAkFrKa9JJYQRhyTDcChIKmtt5ceixpSctObqMjztsFEu3GopvDyM+antOD+yDv1xQokYL9aA4FhSVCqD4mKk3TKu15fgNOPHuXxhZ+9zRyM/7IMmH0gl3dBSL+LWaCN6J2Skcu9cku9fhbCtSQae8VpQmXrinTp2+NXfWzqYyEH7AOy6C/VDerT7x34bhuIOTGUIIULxmDgLtY1WtSeFTb5baKyKokZNNdrT/stBfzDD3u7lnjIFu07cxVvJFEJDM3R7ueogdV40uue0Gdjmn8e6sl8xq3UhoyTADFvrdnfD0YJr2hm2p43/1DOO0BzH6lSKoCLWy3lNpBrpPXYTtSVxbPBdg1XYg4h1BTPGPAyLU6hslqaoo3VF1adYXQvXB2KUPuH1Y4iFcTcFO7CCpsfqYWiOLkyxy4ibUaRpxMgsX14cBuWjwrYuqegmkYsBIDxfRooIq9lx96XybLrS21U+KrcXDusj0A0dFpceIRck5KnJYHJrhSKaaznRiLhIwVSFA8ONfny9yTMcuSFf2h+zRrelLcMHJivsP56+SMuheAtx+9Y01huPhoj2EjVUwI5JjxPnn3ehza+kO95vsEfQ12F9u+apy96Ur+GGdfOVaT67PZGeqbQkS5LoJUJMRuHikuFQHf3y7gMfLiQtWDT8ArPZxVZyqjDWu9BR58L3uwM40hBAT3P1SWq3WgtlQb6lbUtqdch3p4g7BrNm9r4Jw9CtbFmW63ZR2i7ZNeJVS05XFTx9hHXe4fbrKdT8PITXJubRRDkpKSlG+8vlOBYuxJVQFcTkWVL60GcbjP658bepS3sTRqJJ1WzTpczTGlrRcKbYp93ONZpAt8VRdGUIL9ydxsrmILozHkyEH86+JQ3kFQNzA57WRGf9Gsk7W675B8OlYVH0NED/738V/wB9V9fdaxTHQwAAAABJRU5ErkJggg=="
+  cloudType : "private"
+  config:
+    protocol:
+      type: "String"
+      required: true
+      #defaultValue: null
+      description: "API协议"
+      displayInList: true
+    host:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      #defaultValue: null
+      description: "地址"
+      displayInList: true
+    port:
+      type: "Integer"
+      required: true
+      #defaultValue: 443
+      description: "端口"
+      displayInList: true
+    username:
+      type: "String"
+      required: true
+      #defaultValue: null
+      description: "用户名"
+      displayInList: true
+    password:
+      type: "Password"
+      required: true
+      #defaultValue: null
+      description: "密码"
+      displayInList: false
+      encrypt: true
+# 资源
+CloudResourceTypes:
+  - "compute"
+  - "network"
+  - "subnet"
+  - "volume"
+  - "image"
+  - "instance"

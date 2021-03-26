@@ -1,0 +1,41 @@
+# 类型
+CloudEntryType:
+  id: "harbor"
+  name: "Harbor"
+  category: "artifactRepo"
+  sequence: 270
+  description: "为了管理habor制品库资源，需要您提供相关的基本信息。"
+  icon: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAE00lEQVR42p1WW0zbdRTuQB1zLmaGLSQzi5Jl+uJuLEv2oE8+aYxmZmYvQvTBmEK49gallJuUa7mUglxbwJZbigTKtVDuMayEa1BrCmShmVvRMqCUKqM/v9O0BligZCT/8Od3Oef7vvOd84fD8fPjcDhCJiYmvjQajZUjIyPbeBzDw8PK8fHxe4yxi5yX/Zmfnw9Tq9Wq3Nxcm1QqZWKxmCUkJHgeeqc17D2pr69XTU1N3TpxYKB6o6WlRZaVleVMSkpiQqGQ8fn8f0Ui0e8pKSkmeuid1miPzuCsY3FxMR93zxwbfHNzM7i6uro7OTnZEzgxMdECpAK5XP7B0NBQEAIE0EPveXl519LS0oQCgcBcV1fH7HY729nZqcZ+0FHIX6+srOwiRLhEEigqKiqC/TFGTYSQk1ksFra1tcWcTqccsV554WBjY+MPEomE5HBDBv5J5Ozu7g4fHBx0mkwmNjc39xxGYADJGhoaJAcOzszM3ICO24QcwX/cv1dWVhaak5OTmJqaGnAI0NfNzc1Mr9fvgUXb7Ozsnfj4+OKYmBgGSbdXVlbe90lzCm6p9RZ0GQHP+4JUVVW9DZ2pqFQPGc4G0npxcXEEzu1qtVrDwMDAXVoDg7O9vb3hHR0dzxGc5BJ7guDlAhA+paIimHgf/dP5+flGsmNcXNwuIYuNjf0WJvgCBR5WqVT3IcUVSPIAibSdnZ3W0dFRtrCwwGw2GyX4BYBe42Dxc9Cnwu7C1zd8CWDVQIVCUQG6fCRKwJkGpVKZ09bWxisvL4/CWhNkfVpYWMjA1KnT6Z7BXX9NT0/bIZcbRXch0U1OX1+fjGwJGcwIesDHcBG/pKREAXYrQK0E4hgESqqtrdUgeSr2I9rb2z+DNNcNBsPl1dXVS6jnO5DbiloyyMUjBo94PB5DEhN53Bd8bW3tXFFR0UNI9BjF+wdnrHjESBAKJlzIqsdDNdtAYhuYzYPBw8nJyZ+7urrW+/v7GdiIOJgrv8GaLyRA+78KeZRkXWjPuFyuG8g+9e2TqzQaTSgM8h1KoAeT7bGxMUY9YTab2fr6OjWehNPT0yOlIJDhj8MSlZaWPgADFxiwyMhINxDfPqbh3sUAjABqA8YG29jYYC6X63sOaH1MTqEiFxQU3Nx/qaam5isUUZ2enm6Ak+wo6j1/zYfih2VnZ7vBaA8yh1EfnAeyx2RTFEZ6KEEkPN+K/aaMjAxtZmbmHX8JECOLGlYmkz1C7AueRsOwKqNGQzNZYdUQ32F4XgAGOqw1gYUODD85Ljhqdglu/JPGOca4/P8N+PYqMm5SZmyqKanXphIkaMKeCjK2A939Y8b8KdzVUgwwfoY+uHLgQGtrq4SK7Z1H6XDRm5CnA+jrcKEK8vQiSfgRwQNwJ9t7l0F/kXc9cP+hs7CdgehRX0DzQciyS3+D9hISGLH2zeHgAHEZFvcgp4aFbX/yjIgjkLyFA82EgnqDEtFFsmlUVBSLjo42YJAFwffBVHAwyiXNvd8PhlpqEOOcv0/mGXSlELLYfd9hWNTTbPjtxNqvMIMN63s0ZQk1ZPwbw46Pu6dP/G1eXl5+D0gxLYqskIpRfYgRgnveaQ0GsOC7IF9aWrr60v9dAFUIuvMjfK0EcNsTzK4WdD8XM+dD6iF/9/8DV/ixi7yZtD0AAAAASUVORK5CYII="
+  iconColor: "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"
+  config:
+    projectName:
+      type: "String"
+      required: true
+      description: "项目名称"
+      displayInList: true
+    host:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      #defaultValue: null
+      description: "地址"
+      displayInList: true
+    enableHttps:
+      type: "boolean"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      description: "是否启用https"
+      displayInList: true
+    username:
+      type: "String"
+      required: true
+      description: "用户名"
+      displayInList: true
+    password:
+      type: "Password"
+      required: true
+      #defaultValue: null
+      description: "密码"
+      displayInList: false
+      encrypt: true
+
+# 资源
+CloudResourceTypes:

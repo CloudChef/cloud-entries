@@ -1,0 +1,31 @@
+# 类型
+CloudEntryType:
+  id: "nexus"
+  name: "Nexus"
+  category: "artifactRepo"
+  sequence: 290
+  description: "为了管理nexus制品库资源，需要您提供相关的基本信息。"
+  icon: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABX0lEQVR42u2TzUrDUBCFA6KgqCjqRncKKiZpm7YoSROhwaD9SUzFoBgsqFi0SEsR9xERH0BB+7T1G0EXInUlbrK4zJ05Z86ZOyHKYDAY+cujpAapQWow3CCXy8WGYRzatr36HSuVSipYE87JrwaO42zk83mnWCwa/X5/NAzDGXKX3Mtms3WELjKZTCeKoknf9+fJb6mfm6a5Lv1BEEwJFsfxdKFQKNNXBdM/DCAK+YgmE1FfxDRNe6R2w/2U+MCUVZo2dV1/U1X1RZqphfIKEanVarNwr8Hv4V9xPwa/5FgKk72ygmUhygTkXYAEUkcMpNF13SUm2xIuIs8iDGcfLLAsSyNuk7eJO8QuJmfwnrjfKa1Wa8LzvMXPSSqVykKv1xtH0JbnyhTyQsTbsoZGozEn66Ie8eJdMDllwZIkGZNNyGq/VjTsAyFwwNljypUfPvIaWF3Wl/5oqUFq8M8G73Ok8Q0ZInYtAAAAAElFTkSuQmCC"
+  iconColor: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABrElEQVR42u2TS0/bQBSFLQGCVASBIGLRTeNXYsd2SKMmHTvjzsMZ23EcLLVWm1LUKEgOAkUqUpetlKqFX8Ci/NrgYZlFWFXdeHEXM2fmfOfe0QjL5XLjX5ZQAApAAVgPwAr4TGvww/Ckr6xqYYPqRLbPiQjGawEpSEuRxgxffwejOm5n7ezFqEuPPRV5/TphVAUJUewJlu2ruB0fDZvDl/l6TlXna2DhGjdJUbobmdFB2IIVfs/TYBTqXivLsi2BKM53rw7fD3XSYboTYhlMkWT/QTK4prL9BYvOr1z3fR12kAT+IhHcD0zXpCpMeLDFYrFJO/Qw97nEEviZn5lRyfmIVTtjiusKWLJvg5PgFU8ydUbl3PiCiM43pIAZU+1PSHYuYotVmea6WAR3SHr729fIaw5g9V4cGNDiGpF753n6Hgfw0aFq7weHCIvJZGeM4qMnwGhaTlCyP5/PtwODWn3ZZXx0fc0dMBUlN+lN6Sw82/PzjnG+R2so4MWBXHvIHrYiCxlBg76JTE989pHDptfym7iRwrSyqo27o+NT0zMjixnFRysABeA/Ax4BXenvdKjxqqsAAAAASUVORK5CYII="
+  config:
+    host:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      #defaultValue: null
+      description: "地址"
+      displayInList: true
+    username:
+      type: "String"
+      required: true
+      description: "用户名"
+      displayInList: true
+    password:
+      type: "Password"
+      required: true
+      #defaultValue: null
+      description: "密码"
+      displayInList: false
+      encrypt: true
+
+# 资源
+CloudResourceTypes:

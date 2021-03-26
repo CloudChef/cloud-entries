@@ -1,0 +1,30 @@
+# 类型
+CloudEntryType:
+  id: "anheng"
+  name: "安恒堡垒机"
+  category: "bastionHost"
+  sequence: 261
+  description: "为了管理安恒堡垒机资源，需要您提供相关的基本信息。"
+  icon: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAA09JREFUSA2tld1Lk1Ecx+ecU3PqIqK8EBEhiAoNgoY3QXk3sBcyYhJZbFb/QLdddCNEdNGdOSe+IKZeuN6wiCKKgl6uqosurD+gaFubuvls6/MdPuuZukeLfvB4zvm9fL/f8zvnzIp8Pl/pWLXBwcEr5lxjBaaRnLxGmXzWtdvtzrH+5PF4Xi8tLR0jpW15eflXf3//uPJd+mNadXX1bWE5nc7CZ/rLjblczuFyuTKLi4thct6n0+nLEHUz/8q3noAEKZTiHyQs8NmZk9xWSDzkZ1YTM8JYWVkp1pXsQN6qqiolPA6FQueKWRtMpqena2Ox2B3yT1kB16auI7AmDA0NnQTgqFSZxlryntCK56bPbrQlYOt+DrFPbdO5rPZ8JZVK1QL6XwgymIMdfIdkAcJWCBuZmz23E1+IOTfL0JlgjziTToDvQbBZSUl8U4KS7H9Y/C0B196lh2Z7dlYdWyUwVESLvmSz2TeMn3mtecacFWyjua0SlFbo5gC0l3vvCQaDA4AMMHdwk5qZtyuOlRVajsBUbECinwMfj2oCC3DIKR5Wi2EYE/j3EU/zxcQC2bodlTCj1EELlNsxMjKyk9+mm7Tig/zcJj+qxxKJhI9xtrKy0gewAVmUmltc5d28lQ7V682Y9meGBwEJBVB2AIWzqI0LmPlb+SnsJmdeQJBm8c8DGOJVeyEYp24Pfm3km/JlJQQ1NTWdqPqoAMmdyWRyjl0Y+I8D9g6fQnWoz/IAnxE739DQsJ1dTuI7DDFpRtTr9Z5WokxXrvj/QI5IJNKCqjnA9mtNwau6uroT+KpQGYXsID/PLxnP4NtGfJJd+pRK/D67uRgIBAqdUP06AjnpfzPF06g6pLVJwj8UNyr7II/g8/CNMvfRFoMdPUDIBSu4ajckUGBsbGwHW59AXZfWJgmAPyFq43DvIqBd4Ch/iPK+teCqK0ugYDgcbuTApkwSVL4A8DptvUH/O0ixBReGLYESeFSN8Xh8CuVdtE3XOI3yah0o82hTU1PQ7/cXe64aq5XcImvAnPf09MS5rmdp0VOA9aoL4KxndB524MLYdAcm0ejoqJcWTUF2hP7PcIsu9fb2psx4uXHLBAIYHh7exXCtvr7+KjtLlgO1+n8DtE/OZxiMICgAAAAASUVORK5CYII="
+  iconColor: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAA1lJREFUSA2VVVtsDGEU/v7ZrmZrlzak2ZTSJoJUsUI0Li8qXohQESSCukQQ0kdvHrw0EhHBgzRxiUtEqnELoqIqQogikYqGiBC0odXdLa3tzu74znSmhp29OMns/5/b951z/pl/lWEYHlhSegS77L25GlDmqmAM28Xm0JNAUlNor5mEx5ffoRpJTCpS4b6XewrPSk7ecCI3uoEjTn14/wd+yOTUDQxCw4nnnXiu69hJ8uW60t4zMJVgGBDoYekSlEk0w0AZA/xGkiQUpSFGGzgVUU35qwPbSPDmL3XYYOtu68KTKHjXhwYOb5Wb37a5EtjO8UdRw2KqbV1W6nENuFMWwH2nPd0+I0EiiWVMrHUms/k4dR+fnAhYTHpRcoAiBrr5+5TPN9oMQ1l28WWRjAR2Ls/kVmcd5vENuW7bcl1zIsgVzC3uvwg4njyOR8nqBuZmy4mAoLokM/gtnycehdfeAGjmd5tFMlcil8KQVCw6jcCnOtRTrW9thdrRjlK+USFxc01bqLvDGKpYWZUTo6ojgvNLGuAX8D1vMDGSwAXaK+ReIkjYJEqmduRKwN5nzWlAcVEeDrGFF5JMWdrej7Ob2lHV048m6lX86GR01yYGcPh7HEHuzY4UK7PlLwK2GrUclZ8H0DTCh0iJD8sY3mbaeZHFdNxmATMZmyBO89TR2N4ziMLeAZxjN5NJynMxPrgS+POxgI5XlnNeZxRXk17oQQ9WkOSZ2Ak60gQHWsf5sKnzB4qiMY5LYa50xIqvl4zWVlsYUM7/AzFOb0BZ9wCucjtNdAI/Co7CSvyEtyuBaywvRJCHY0ZiTfwXCqyzMMdF+w3eUVsebUVEckVSCMQ49RgmRBNoZKWzzSCLJBnDiO5B1BZrODWg4A/rOEO/Cc7Obpb7sdkJLrkkTZWO3fjICuWiuyteEs3viuKKlo/BczNwoN+DAMEb6RoC51XiBi65rh2IQ6TqDAo/9uIit4tF5xf8wOvB/ngCB82D5sw5wlvlAdT+W7nEi2QkkIB/SWiK8ck3D5SXX5kf29KBS77riMRhy5ONCPNtWUe9xbKZ4Jz5pdDY9JXb+VkJJLBtO3pJspbbFqlcwCt92HFzPd+tLJJ1RM780HEEv/7CvimF2HuvFn1OX7r9b1ghMWHuDVOmAAAAAElFTkSuQmCC"
+  config:
+    url:
+      type: "String"
+      required: true
+      description: "安恒堡垒机地址"
+      displayInList: true
+
+    admin_token:
+      type: "String"
+      required: true
+      description: "Admin令牌"
+      displayInList: true
+
+    operation_rule_id:
+      type: "String"
+      required: true
+      description: "运维规则Id"
+      displayInList: true
+
+# 资源
+CloudResourceTypes:

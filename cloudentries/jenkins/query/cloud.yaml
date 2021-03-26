@@ -1,0 +1,46 @@
+# 类型
+CloudEntryType:
+  id: "jenkins"
+  name: "Jenkins"
+  category: "ciEndpoint"
+  sequence: 280
+  description: "为了管理jenkins入口资源，需要您提供相关的基本信息。"
+  icon: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAD4klEQVR42q2WayjecRTHV9s0NJcwnsctY+5iRExoyCUkZC5DXrjkTotlQ7xQWoi5pZWEXMreSuYSyiWU8cK8cnk8eNy22qatXb4751fWpp55bFO/0vP//8/nnO/5nvP/XwFwVdVjbm4u0dXVdTIwMLgTGxurrsozV1S5yc3N7b6dnd3L5ORkRXt7++e6uroPCQkJy/r6+on/BKBg1ynThvLy8i9DQ0M4OTnB8fExDg4OsL+/j7a2tm8WFhYZfw0wNjbOysjIQEtLC46OjtDb24uRkRHs7OyIMzs7C29v77eGhoYWlwbY2trqJSYmHtbU1KC5uRkrKyvo7+/H2toatra2fp6pqSkEBAQ8vDRAU1PzUVxc3PeCggIMDg5id3dXZL20tISJiQlMT09jdXVVQIOCgp5fCkAlx3l4eHyNj49HZGQkWltbsbe3h+3tbXR0dKCnpwfLy8ugZgvZCPBJW1v7gUoAU1NTqa+v7w65BF1dXSIYa83BWRKZTCYqOTw8xMDAgDjp6elwd3eX2djYSC8EUGNLMzMzQfqjqKgIY2Nj2Nzc/Kn5xsaGkIgchNraWtEfvjclJQVSqfTxHwFsS/L8bH5+PrKzsxERESEeZktyk+VyOWZmZlBRUYGcnBw0NTWJJDh4bm4unJycZjiGUgB52tDf3/+AAVlZWeAGh4eHY319XTR1cnJSQFg2lo9nw8fHRwTPy8tjyyosLS1vKQWQ/paBgYHvzyoIDg4GrQfwLLB7aOBQVlaG4eFh1NfXw97eXlxnCAMoufdmZma3lQJMTEyM/fz8jlNTU8XDrq6unBUoK0RFRYlqQkJCQA4TvyclJYn7+HpaWhqDjtgkSgEU+Aa5YSUsLIz1FAAHBwc4OzvDysqK7YjCwkKEhoaCk4iOjhbXaSiFTHT/a45xkU3ruLEckAEM4iw5EGfK9q2ursb4+DgaGxvFPVS1kJEUeHahTY2MjBxYS5bBxcVFBGYA/88Arq6hoQG8QjgRSkhURJV/0tDQuKvSJNMsPOWAZwBuJEMY6unpCS8vL1GhRCIRFRYXF3Pjv5EpHqsEqKysVKPRf8Han1UwOjoqVvXp6ak4VVVVojc8yXNzc1AoFCgtLZ2jIbym0rLT09Pz4MAcxNraGvPz8/j1j1c4y8Mg3k8LCwtsgFcqA+gNJtHR0XlJQT6zRN3d3b8B+vr6GPCOZIqi5oaSPIWOjo52l35lamlpuaupqT2h8mW/AhYXF9lNcpqHm//8TuZDq7vxPCAmJubN+cH6awDtKd+SkhJ5Z2fnR9pFH2lP7aqrq9/7L18VZ4esaUBfEtb82XJ+qSk7PwBhJbmwsCcLcwAAAABJRU5ErkJggg=="
+  iconColor: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAEqElEQVR42q2WaUxUZxSGTbTEoYCzMBszw8xlNi4MWxHQoQUsEWr6gxIZIFDboQsWowgSQTYLApGlokClUFsEGRyxIa2AFCrtIBCRpQXEqElFbVlStLRN2C3y9g6xiSVBB+1NTu6fc85z8p7zfd9ZB2C9qSYWi/kMBsOJzWbLNRoNzZSYdaY4ubt7bSNJx7r33g6ZOFOWu3CyIH1aGx48YG1tHfFCgPLy8pc0mrATh9PT/m5rrAYe9AP3f8TSeDcWR7ugO5n9iCCI6OcGCASimA8+3I0vSnKx9Fsv6nVF6P22CvN3OzB/rwM3O+vgo/b4k8vlEmsG2NvbsyIiIx8czc1DRXEORvsvoqmmCBNDzZgdvoyZxzZk0CPAzztyzQBL2ssJ4aFhS7H749FSW4qHv3Ri4V4nhnsa0N9ag+tt5zBGQS/WFCMgwLd4TQApkx32EZuzqA19C8FBb6KqJBuLI1cwe+cyzp/KRcOZQvzaV4+y/BQ06I5Dq/aYF9AsQk0CiERKm2QOd7TGnoS+qhAXqo7hVsd5zN1px/TtNszdbV/W39jo5rPFqNcXo9bPF9EMzohIqbR5JsCZxUruIGT4WkAge28Uer6rXk5s1Ht6uA1TP7dhgJKo+tMsfJaXTPUnA3pShUZbGZQMVtJTAcaxjOJwu4akJHrs7FHO5CNWE4SHY92U3o1YoPpwo/0r5KbtQ0LMLnxZ9DHy97yLJqqYn6gYDZt3xZhjVQA109x0ns39Qcq5iwJclyiR7eyM8Zs/UE3VY/D7mmVIPSXdN6cLYGiswB6FAv2U3wAVE88VTEilUs6qAI5IJM3mC6euyRzQTShw1EYMhVCJ6GgtbvfUoyB1H7JT96KzqRJln6TCleoTQ+KERL4tjEWl8YRTXFtbu1UBQqFQkMoTTjaLZdgukILuEQimz05YKD0RGBKOfIU9CplsaByU2C0R4wJfAIlqK3hSF7SJ5TjEE/4uEolsVgVotdqN0RzBtRNURTQ3fzA93wDdxQd0Nz+sJ7cgiwLfIORId3FFZogGeV5qCFReUEtI9NspsYvDGzTmeOoUuTOtj9UJCShkrqB7BoLu6gu606uwpP5OVKIDwWGIyy/BJYMBB8uqwfLyR6JQig6JAq4MZv4zx5TJ4zke5gqmosRKWHg8Bji/Bubm7TBTesA9KAIHSnXIzC+E/zsxsBI74rg1H++z+fPm5uZuJp3kV1js1HCuEHQqqVEiS0IFrrMa8i2vQ6Xehs3ePpDISVgJ7KByckN6QgIaW1oeBQbuSDIJkJGRYUbfRD/FctuGTa5+YDup0draij8mJzE/O4s5ypKzciFy80btOT2udndjYmICKSlpVw0GwwaTLjsWi+fJUKlBd/eHpeNWdPX04smvsPRzmItJHMk8goqK0+jt7UNcXPwlkwEkSfItWLw6C4nDghnhjArd2f8AdPpacCTyv/h8fjA13jsoeeLkKhW55ieTZWXlsWGjecqh5JSRJwF9fX3IyckZ8/b2tnzhN9lo4eERRSsBO0M0t1YerOcGEITc52Bi0lhlZdVMtU43E7s/bpxGo6n/l63iX5PJZGxqk1AY15aVl9pq9g8vf6+xQjAW5QAAAABJRU5ErkJggg=="
+  config:
+    host:
+      type: "String"
+      required: true
+      description: "地址"
+      displayInList: true
+    loginType:
+      type: "String"
+      required: true
+      description: "登录类型"
+      displayInList: true
+    username:
+      type: "String"
+      required: true
+      description: "用户名"
+      displayInList: true
+    password:
+      type: "Password"
+      required: true
+      #defaultValue: null
+      description: "密码"
+      displayInList: false
+      encrypt: true
+    token:
+      type: "String"
+      required: true
+      #defaultValue: null
+      description: "token"
+      displayInList: false
+      encrypt: true
+    csrf:
+      type: "boolean"
+      required: true
+      description: "是否防止跨站点请求伪造"
+      displayInList: false
+# 资源
+CloudResourceTypes:

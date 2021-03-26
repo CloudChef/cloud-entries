@@ -1,0 +1,31 @@
+CloudEntryType:
+  id: "veeam"
+  name: "Veeam"
+  category: "dataProtection"
+  sequence: 300
+  description: "为了管理Veeam资源，需要您提供相关的基本信息。"
+  # 图标base64
+  icon: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABiklEQVR42u2Tu0oDYRCFF6JRo/GCBq9ELAUrb41obYQsWoRNNtddYS0kWomIiEFBCYhYRbwQLQQ1lZWFoA/hE/gofidkH0GrLYaZc84/Z/b/JzEajUboL8MIBgQDggEho1Qq9ROdAqlUKuRj27YnySPiKpVKWy6XGy0UCnFwWGcTiURHJpMZliaMNojW5RvTPwDuMbLZLLU9JzKfz3dj5JDn4V4wOJNJOp0eI1+gPaHN6KxlWdP0nmMSE0bbKxaLS60PDYN30TcMCpPmu2QyGYGwqG8xf8PIRjumPiGu0A7h8uRXx3FicNfEA9SB53kR6i/iHvM++papP4lvQ08AsaUhEDUapsgf5G2ufSSNG9TQq2Cdq6Kfwj8yzNXNwDvEDdwquE59SawRP80lm6YZRdwnZjWQxgXqZw7UNRA8IWO4d7gV3ZSvHiL3tnQLbb1cLneAPc4s8jHj5E3DX66W5C9bGYO4jPWeWqQWLjM9h4z9ZYLb9Syu60Zbvc0fifrEB3+0YEAw4B8G/AKpjC/6RkomXQAAAABJRU5ErkJggg=="
+  iconColor: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAl1JREFUSA3tlM1LVGEUxs953/c61+ukt/KrUkSHWgwoFUXQwoJWiRZJQzuJJAgRiqxNm0ZXFSHYLlq4iDZjFFK0UBEq6IugaMKvkUEH0pHJz/Hembnvve9p7B9wJRHM2R04PA/nB8+DkUiEww4O20Htv9IFg20JFxD9e0RovjxtmmuQfVDSJYdgCEa11K6tPVnpVHGQuRbrdio1MYFfGl9VUBFoDZmG5F0IeXeSg2KxbsU8/u3sclcwSJ3ioVnm1tn9EHK23rpqPCotsoUU6aK1FquCTYMN399lp/V0CV2w9oioBHkLFMTfuH0DdERym2s3gUF1zJi+l7+dTNQsNThCdnwNDvcDBFes4uyVDMU+wCZ86oVenkbswGJIIB9uOueh17Z/Ub++VOu2eUqdAVSVnLMIER1URBwISxmyFApMeNJr9aPWvUmyD4h0xnGm2vUNLLDcayCI77Z9PWlDNrnohQGwgl/0mmenji5Xb/jdTgJVqyvjvsu8dmQwDxx1JJ4kjw4QAiLHTVIKHfCOgcb2cg/eK1J1FoMAEXCB7IUt3B6Fqp6T9oxQtfNwOMzGV8amsqUiIJTv+fmn9TOxxtVJj8GlvLDf5+KgJvCtC+pE3qRZEA7mnTJ+qT02uB4lT/1UHE2maKqe1Yyuc7tcOGxMY0aMwFngoVCI2b5lmVDWRNWqf+HG4cvq83r0d850P2pKHw/YgeShslPplJz7wV1tpBxqYoKVxJ/Y3Rutzkk5k3LSNnfmDc7j/ZlruRGKzlaaxb+q1vdZjhQxLNT1dlEulN12hPLh3+H5/w3+AHEfFuD6rClJAAAAAElFTkSuQmCC"
+  # 对接参数
+  config:
+    host:
+      type: "String"
+      required: true
+      description: "地址"
+      displayInList: true
+
+    username:
+      type: "String"
+      required: true
+      description: "用户名"
+      displayInList: true
+
+    password:
+      type: "Password"
+      required: true
+      description: "密码"
+      displayInList: false
+      encrypt: true
+# 启用的资源
+CloudResourceTypes:

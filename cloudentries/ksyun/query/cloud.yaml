@@ -1,0 +1,47 @@
+# 类型
+CloudEntryType:
+  id: "ksyun"
+  name: "Kingsoft Cloud"
+  category: "cloudPlatform"
+  sequence: 160
+  description: "为了管理金山云平台内的资源，需要您提供金山云访问密钥ID和访问密钥来访问您的金山云。"
+  icon: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAEfUlEQVRIiZ1W32sUVxT+zr13SCIq7IK604S0mAdZU2ETEDWbCWoaNOmDNEIVGghoiq9LxA3tQ18KLY6k/gX60KciiYWVBHFqDan7IIiVuhpwNRiwpCYh/gjIyMy9pw/uLLvZjYXel4Ezd75zv3O+890hfGCdPXu2WSl10Bhzkog6AdilV4sA7hHRL2EYzoyPj/+9EQbVC46NjSWMMaeEEKeIqI2Zwcw1+4QQMMY8BXCZiC6fP3/+n/9MkM1m+wD8pJT61BgDY8yHSEIIASEEwjAsABh1XderfC/XgQ8C+Fkp9XEYhjDGgKguyfJiZhhjoJTazsyfp9PpJ/l8fq6GQTab/QzAFSFEbKNTSynLgBuxMca8BPCl67q/lROcO3duO4DfLctqD8Ow5kPbtrmvr4927doFZsbjx4/heR4vLi4SM1exVEohCIKHRHTYdd0lUYqfrgdOROjo6EAmk6FEIoHr16/jxo0bsG0bmUyGUqlUTQnDMIRlWe3MfBoAaGxs7CNm/kMIsXM99Xg8jmw2i/v372NychJBEAAALMvC8ePHkUql4LouVldXa0qltZ4XQjhCa324HjgRobu7G77vI5fLlcEBIAgC5HI5+L4Px3FqWGitIaXcqbU+rIjoRCU4ESGZTOLQoUNobW1FsViE7/s1ffF9H8+fP0dXVxeam5sxMzODubk5RD0xxkAIcUKUJrS8uru7MTw8DACYnZ3FwsJCXakSERYWFjA7OwsiwvDwMNLp9Po9nQql8WdmxGIx9Pf3486dO8jlcgjDEEKI8hRHiZgZWmvcvHkTxhhIKXHs2DEMDAzgwYMHePXqFYgIzGyLyhMlEglIKeF5HiJFRcPW0tKCo0ePIpPJYMeOHVXzoLWG53mQUsK27SrGAsBiFIieWusqqo2NjRgaGsLdu3fx+vVrnDlzBlu2bKlpbCUGEYGIFgWAexHtFy9egJnLyogatn//fsRiMSSTSUxMTKCxsZEHBwfL5RNCwHEcMDOWlpYQmaMx5p7s6uqSQojBSBlCCPT29sK2bcTjcTiOgwMHDuDNmzfYs2cPHj16hEKhgCNHjlBrayu2bt2Knp4e7Nu3D7du3UKhUHhfmve28b10HGeFmb+IPOjZs2dYW1tDKpVCMpnEpk2bMDU1hWvXrqGtrQ2dnZ3wPI+KxSL27t2L3bt3o6mpCdPT07h9+3YkTxhj5oUQ30Ve9I1lWT9UWoWUEg0NDXj37h201mBmbNu2DSMjI1heXsbVq1extraGhoYG+L5f1QMpJYIg+PbChQs/qlLwUhAEX1mW1R4EAYgIWmu8ffu2SvcrKyu4ePEiNm/ejCAIEIYh1vtX6W54COASsM6uiegKEW1o15EYKtWyHpyZXzJz2a7LF04+n59Pp9NFAH1KqaaNkpTkVxNXSsEYs8rMX7uuO1UudeWmfD4/l06n/zTGdCiltleeeCMmUkpIKaMrswq8JkEFk1+11i8BfCKEiNdLEN3FxpinxphxIhp1XfevGsZ1j1dao6OjzZZlHWTmkwD+12/Lv1pJNsQ3bNsFAAAAAElFTkSuQmCC"
+  iconColor: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAABH5JREFUSA21Vl1slEUUPfPtf7eltDalVRoQChIwPICG+KCRKmKMkcRGqdGQiFUTH1DQGITEB0lKBARfq1iMkaQxog9KQkXEBA0PJDWtIElp/YFKt0u7FGj3//uu98x2bZdSfdFJppm995xz79yZ704N/mFcwtI7wsg/6MJpMTCrAKkvwM2QQLp98DrT8H/fgL4/Z5Mxt3LEsaLOQ2azA2z2AYtdBclNQBLVB/UNeECHg1BHLc7FboJhRoBhLFmncvtDMHdTOD9DulTCrxIMlIGcBcy2ebhwfDqiJICKP6lZfxgAqpUwHTe5LtpKaNanCSEHJHQ3L2qQL4rkv5HDWPqwgfeZD6aqNGulQKc/DCdaaXnexDXdWlrXmo6d1gzuxoVcFThPz0Pft7QSgRhW1gq894MzxLVIgQAiG5ul6lQnauI/2Mk1bfTZU6CIDiZGDWpRkzYbAEi+EIFZkS0pi5YjGEL526+hvHOf8S2cj/ShL+3kmjb6iJl+BahBLWoygLmCu2734J7S7S0qLU0WoUfWo/JYO3Inz+DG8zuQH7xEDvzzG1BxqA2Btffi2qMvI/NNl1qD1mf9WirV+tWB734nB7epVJwHmYMJlCPySgtkIoXxN95F/uIFPQotmU6uaaOPGGLJKe6EiVKT2o7WaKMeDAPrcGHCEUS3b0F171EENzTB7b+I/MBv6vPr5J3g9FsbfcQQSw65xTOhJrUZQL9QDg0SDqBi/05Ed29THYPMkRNwf+6HCXL7TGJq0kYfMcSSQy41ijuhthlGI++hEaQRWvsQ5nYdRPb4aVxvfRPeUAxOVQ0kmYJkUjDlWgrXg6QmVCgCJ1IG7+oInPo6zDm4B8F192FsfSsyJ0/oPsMqC9EghWF024HVK/Va+jHR1q7ig+rQbqMCJqjnsekZzPloD6rPdyHcvAGSnlDfaAGjWHLIpQa1isPRig4Vvjb9y4LpkAwPjGt6BL7FDYjufR3pw19BRsZQ0bELwTVr1Gc3b7EFDpcFHpk6hxyFdOtaZXLI9/6iHEF06yaYikq1pbUsFYhseRZObRWCjz2A8a17YcoiUn5gJ5zqesUkLZYccqlBLQ6rfRmNz41iiQxjkcTLlkv606+FI3u6R1IfHJHsjz+JeJ54I2PWfv2ld0SDePyR6z4vqfbPLZa/04ePSjy63GpRk9rgh6YHPUBDDHfKlbn3SPLAJ+KNqmAub4WT+z6WxKqnJN/3u7jxhCRWN8uNV9vsWnKuxZJDLjUKCTcOUJul0l7U+JZ+3m3soNpH1KJ3uKYevgX1cP+IwRu5bLcdfvwJPehdcAdjGN/+HtyeATgNt01ihpSnz5KeHTur3rsddejfPRmAjSn5XVh7yFSbZiC+COz2xcvmwr9sGXwLF8BLjCB3pkdzyZZgKJ6GnAPKmurQG7cBFIHZ2zW9U6NwgGJz1Xs55dDVrO2aKPZvpbVq3glmMdswKmpsYysVJ4dcahTfAmoU9271+BIpqEXLdJYEZvRvgxhiySF3+mtG7i0V/tdHf3rG/8W/LX8BQAM6yQPfIjAAAAAASUVORK5CYII="
+  cloudType : "public"
+  config:
+    access_key_id:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      #defaultValue: null
+      description: "访问密钥ID"
+      displayInList: true
+
+    access_key_secret:
+      type: "Password"
+      required: true
+      #defaultValue: null
+      description: "访问密钥"
+      displayInList: false
+      encrypt: true
+
+    domain:
+      type: "String"
+      description: "专有云域名"
+      displayInList: true
+
+# 资源
+CloudResourceTypes:
+  - "compute"
+  - "region"
+  - "zone"
+  - "network"
+  - "subnet"
+  - "flavor"
+  - "image"
+  - "instance"
+  - "instance_type"
+  - "security_group"
+  - "volume"
+  - "volume_type"
+  - "eip"
+  - "describe_listeners"

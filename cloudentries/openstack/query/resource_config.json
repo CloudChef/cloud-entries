@@ -1,0 +1,1759 @@
+{
+    "Compute": {
+        "version": "6.2.0",
+        "resource_bundle_config": {
+        },
+        "available_zone_id": {
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "cloudResourceType": "cloudchef.openstack.nodes.Server::availabilityzone",
+            "dependencyKey": "policy_resource"
+        }
+    },
+    "Network": {
+        "version": "6.2.0",
+        "vlan": {
+            "type": "input",
+            "label": "Vlan Id",
+            "i18nPlaceholder": {
+                "zh": "系统自动分配",
+                "en": "System Auto Allocation"
+            },
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "value": ""
+        },
+        "name": {
+            "type": "input",
+            "label": "Network Name",
+            "i18nPlaceholder": {
+                "zh": "系统自动分配",
+                "en": "System Auto Allocation"
+            },
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "value": ""
+        },
+        "network_type": {
+            "type": "select",
+            "i18nTitle": {
+                "zh": "网络类型",
+                "en": "Network Type"
+            },
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "source": [
+                {
+                    "id": "vlan",
+                    "name": "vlan"
+                },
+                {
+                    "id": "vxlan",
+                    "name": "vxlan"
+                }
+            ],
+            "value": "vlan"
+        },
+        "physical_network": {
+            "type": "input",
+            "i18nTitle": {
+                "zh": "物理网络",
+                "en": "Physical Network"
+            },
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "value": ""
+        },
+        "ip_allocation_method": {
+            "type": "select",
+            "label": "IP Allocation Method",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "source": [
+                {
+                    "id": "DHCP",
+                    "name": "DHCP"
+                },
+                {
+                    "id": "IP_POOL",
+                    "name": "IP Pool"
+                }
+            ],
+            "value": "IP_POOL"
+        },
+        "resource_id": {
+            "type": "select",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "cloudResourceType": "cloudchef.openstack.nodes.Server::network",
+            "dependencyKey": "policy_resource",
+            "value": ""
+        },
+        "subnet_id": {
+            "type": "select",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "cloudResourceType": "yacmp:cloudentry:type:openstack::network-subnet",
+            "dependencyKey": "policy_resource",
+            "value": ""
+        },
+        "ip_address": {
+            "type": "compute_input",
+            "i18nTitle": {
+                "zh": "IP 地址",
+                "en": "IP Address"
+            },
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "value": {}
+        }
+    },
+    "generic_eip": {
+        "version": "6.2.0",
+        "internet_type": {
+            "type": "select",
+            "i18nTitle": {
+                "zh": "线路类型",
+                "en": "Internet Type"
+            },
+            "required": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "cloudResourceType": "yacmp:cloudentry:type:openstack::eip",
+            "dependencyKey": "policy_resource",
+            "distribution": "Huawei_PublicCloud",
+            "conditionTemplate": "component.isHuaweiPublicCloud",
+            "value": ""
+        },
+        "internet_charge_type": {
+            "type": "select",
+            "i18nTitle": {
+                "zh": "计费类型",
+                "en": "Bandwidth Billing"
+            },
+            "required": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "source": [
+                {
+                    "id": "traffic",
+                    "name": "Pay by traffic"
+                },
+                {
+                    "id": "bandwidth",
+                    "name": "Pay by bandwidth"
+                }
+            ],
+            "customTemplate": "translated='true'",
+            "dependencyKey": "policy_resource",
+            "conditionTemplate": "component.isHuaweiPublicCloud",
+            "value": ""
+        },
+        "band_width": {
+            "type": "input",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "conditionTemplate": "component.isHuaweiPublicCloud",
+            "value": ""
+        },
+        "ip_allocation_method": {
+            "type": "select",
+            "label": "IP Allocation Method",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "source": [
+                {
+                    "id": "DHCP",
+                    "name": "DHCP"
+                },
+                {
+                    "id": "IP_POOL",
+                    "name": "IP Pool"
+                }
+            ],
+            "value": "IP_POOL"
+        },
+        "floating_network_id": {
+            "type": "select",
+            "i18nTitle": {
+                "zh": "网络",
+                "en": "Network"
+            },
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "cloudResourceType": "cloudchef.openstack.nodes.Server::network",
+            "distribution": "Standard_OpenStack",
+            "dependencyKey": "policy_resource",
+            "conditionTemplate": "component.isStandardOpenStack",
+            "value": ""
+        },
+        "subnet_id": {
+            "type": "select",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "cloudResourceType": "yacmp:cloudentry:type:openstack::network-subnet",
+            "dependencyKey": "policy_resource",
+            "distribution": "Standard_OpenStack",
+            "conditionTemplate": "component.isStandardOpenStack",
+            "value": ""
+        },
+        "floating_ip_address": {
+            "type": "input",
+            "i18nTitle": {
+                "zh": "IP 地址",
+                "en": "IP Address"
+            },
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "customTemplate": "option-valid-type='ip'",
+            "conditionTemplate": "component.isStandardOpenStack && isStaticIP",
+            "value": ""
+        }
+    },
+    "Volume": {
+        "version": "6.2.0",
+        "volume_type": {
+            "type": "select",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "cloudResourceType": "yacmp:cloudentry:type:openstack::volume-type",
+            "targetResourceKey": "name",
+            "value": ""
+        },
+        "size": {
+            "type": "inputNumber",
+            "dependencyKey": "policy_resource",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "value": ""
+        }
+    },
+    "SecurityGroup": {
+        "version": "6.2.0",
+        "resource_id": {
+            "type": "select",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "cloudResourceType": "cloudchef.openstack.nodes.SecurityGroup::resource_id",
+            "dependencyKey": "policy_resource",
+            "value": ""
+        }
+    },
+    "Generic": {
+        "version": "6.2.0",
+        "available_zone_id": {
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "cloudResourceType": "cloudchef.openstack.nodes.Server::availabilityzone",
+            "dependencyKey": "policy_resource"
+        }
+    }
+}

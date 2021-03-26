@@ -1,0 +1,57 @@
+CloudEntryType:
+  id: "fusionaccess"
+  name: "FusionAccess"
+  category: "cloudPlatform"
+  sequence: 55
+  description: "为了管理FusionAccess平台内的资源，需要您提供FusionAccess平台中具有API访问权限的账号密码和地址。"
+  # 图标base64
+  icon: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAGlUlEQVRIiXWVW2wU5xXHz/kus7M3sIstYEkJsZuNYQPBlBA5TcxSBHKqpLVpXVGRh1QKD1XUSr2patTLpqV9qFohQFUjqko89CZWJCmUNsgtuLQRGNd2uExtK2VJudgsa2yv17s7O9/l9GWXglTmZUaj7/x/3/9/5juDRMThIVcmkwEhxCPlcnmnEOIW5/xdAABjzEvGmFbHcU4BwFQmk3mYBODDAJlMBmq12guVSuWXnPMVWuvLe/bseXp+fp6dPHlyjHP+hLV2KhaLvSKlPP0wyAOA+iJKpVKYz+ebJicnRwDgUSICANBLlix5SggRmp2dHSYizjkHAPigra1ty44dO0rZbJZSqRT29/ffA7DGw+DgIAkhHrHWPu15Hl2/fn0dET1qrQUAAM65UEqt830/xTnnRATGGLDWPp7P55PZbJastc/kcrnE4OAgPQDwPA+q1aqcmZk5XCwW345EIis45/4DVhFBa91mjHm87ggQEQBACyFKruuuLhaLx6enp99MJpPc87z/AbLZLJ05c2YXEe0EgJW3bt36+dq1a3OIOHU/xFq7Qmu9/H4oIl7fsGHD1PT09C+IqIWIPnXgwIGXstks3R8Rq9VqvYgIxhgAgN4rV670SSnfqucMAABE9BEAaG44YIyBlPLY0NDQywDQU6+FWq326Yb2vR4gYqhRaK0F3/f3RSKRc9bacl0cGGMxAHAbu7fWLoTD4UtKqTeMMQ1HQESioctTqRQrFApkrUVr7WcbTWWMxYwxljH2L0RcX383Uf/qnqjv/ndBEGwGgE4iAkQExhhEIpEfCCHGW1tbkbe3t29WSn2xra3t6Pz8vCai5xsurLVJ13XfCYLgScZYBAD+CQAMEdcRUd513b/WarVXjTGMMdaI7HuJROKdmZmZb46Pj88xrXVSa/3DiYmJf4RCoX+Hw+Evc86nOOeAiNL3/Rdd1/095xwYY1VELHHOIRwO/7ZarfYiIhdCAGPsRjQafU1KeSeXy50DgO9qrdcIKeX1UqkEAJBcXFz8FWPsdDwe31+pVJ4JgqCXc76Zc35cKTXBGCshYkxrfZExVuScP6W1VlLKY1LK4cXFxd0A8Hy9h3bp0qU38fjx45GBgYG/IGKXMQYYY0BEgZTymOM4F5VSLyqlVsZisf1aawSAMCLOVSqV7ziO8x/Hcf7s+/4mrXUvAEhjDAghABEHe3p6engymTThcHhIa72NMdbCGANE5Ii43vf9j0spT0gphxhjox0dHX9atmzZSKlUWgoAeUScr1QqX2GMbSIizhiDelyXW1paXmlvby8gEfFMJkPLly9vuXbtWp/WegMARACAI2IIAKSU8nRPT8+bra2tVCgUKB6P86NHj76mlOpGxMBaW7PWKs55VUr5fnt7+x+mpqZmM5kMCgCAdDoNY2NjQin1SWNMlIhCAOAyxpoZY0VEnCoUCpROpwEAMJvNWiFEPgiCldbaGBEVicg3xlQBYJnv+yca07UBQAC4c/v27Yu+7/9ICAH183A2Go2+LoQ4f/+E7O/vB8/zjkaj0elyufxjAPgE5xzqPfza9u3b7wIAPnCS0+k0hcPhn8Tj8W7G2Dcikchn9u7du0MIce7/zfr6z+js7t27t4XD4V1CiG/F4/FnY7HYoVQqdW8dElEDggBA94ul02loxAIA1Lh7nod1EfI8DxuDrV6PjXrP8xC7u7sfq1arzRcuXLi4ZcuW51avXu1dvXr1ybGxsb93dXWtI6Lg/PnzH3R2dnYnEonLhULho0KIxba2tjvj4+PrR0ZGznd2dj4bj8fv3r17dzMRSdd1R6WU2nXdRTE7O/uc1nrzkSNHvr6wsPDt6enp75fL5dcB4IVisfg5RMz39fXlS6XSr3O53M845zmlVHexWDzr+/6hrVu3biuVSl8lohNKqVdDodDbiMjm5+f3OI5zhQFARWvds2/fvt8YY9YIIQIiUvVIaohYnZycfNlxnHeNMTtXrVr1vrV2jda6j3M+ns/nM5zz9xAxDwCRIAjckZGRUUQkADDMWhsRQgymUqkvOY5zS0pZJiLs6Oj4QhAEXZzzklJql9baaK2bbt682c0Yu2GM+Vg8Hn9DKfX55ubmPxpjooyxfDQandy0aVOKiDgRCZ5MJtFxnBsHDx4cP3XqlNq4cePo3NzcBUTcHwqFsolE4m/W2puHDh366aVLlwaIqLWpqWmAcz56+PDh9wYGBj4cHh4ezGazRinVAgAJzvlCKBS6FI1GP/wvlkVrztr4AaYAAAAASUVORK5CYII="
+  iconColor: "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"
+  cloudType : "private"
+  # 对接参数
+  config:
+    protocol:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      description: "访问API协议"
+      displayInList: true
+    host:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      description: "访问API主机"
+      displayInList: true
+    port:
+      type: "Integer"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      description: "访问API端口号"
+      displayInList: true
+    username:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      #defaultValue: null
+      description: "用户名"
+      displayInList: true
+    password:
+      type: "Password"
+      required: true
+      #defaultValue: null
+      description: "密码"
+      displayInList: false
+      encrypt: true
+    instance_cluster:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      description: "虚拟机组"
+      displayInList: true
+# 启用的资源
+CloudResourceTypes:
+  - "validation"
+  - "region"
+  - "zone"
+  - "network"
+  - "instance"
+  - "security_group"
+  - "flavor"
+  - "volume_type"
+  - "image"
+  - "compute"
