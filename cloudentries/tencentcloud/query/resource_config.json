@@ -1,0 +1,1535 @@
+{
+    "Compute": {
+        "version": "6.2.0",
+        "available_zone_id": {
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "cloudResourceType": "yacmp:cloudentry:type:generic-cloud::resource",
+            "queryProperties": {
+                "resourceType": "zone"
+            },
+            "dependencyKey": "policy_resource",
+            "value": ""
+        }
+    },
+    "Network": {
+        "version": "6.2.0",
+        "available_zone_id": {
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "cloudResourceType": "yacmp:cloudentry:type:generic-cloud::resource",
+            "queryProperties": {
+                "resourceType": "zone"
+            },
+            "value": ""
+        },
+        "resource_id": {
+            "type": "select",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "cloudResourceType": "yacmp:cloudentry:type:generic-cloud::resource",
+            "queryProperties": {
+                "resourceType": "network"
+            },
+            "dependencyKey": "policy_resource",
+            "value": ""
+        },
+        "subnet_id": {
+            "type": "select",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "cloudResourceType": "yacmp:cloudentry:type:generic-cloud::resource",
+            "queryProperties": {
+                "resourceType": "subnet"
+            },
+            "dependencyKey": "policy_resource",
+            "value": ""
+        },
+        "subnet_name": {
+            "type": "input",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "value": ""
+        },
+        "description": {
+            "type": "input",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "value": ""
+        },
+        "cidr_block": {
+            "type": "input",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "value": ""
+        }
+    },
+    "generic_vpc": {
+        "version": "6.2.0",
+        "vpc_name": {
+            "type": "input",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "value": ""
+        },
+        "description": {
+            "type": "input",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "value": ""
+        },
+        "cidr_block": {
+            "type": "input",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "value": ""
+        }
+    },
+    "generic_oss": {
+        "version": "6.2.0",
+        "bucket_name": {
+            "type": "input",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "value": ""
+        }
+    },
+    "Volume": {
+        "version": "6.2.0",
+        "volume_type": {
+            "type": "select",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "cloudResourceType": "yacmp:cloudentry:type:generic-cloud::resource",
+            "queryProperties": {
+                "resourceType": "volume_type",
+                "queryResourceBundle": false
+            },
+            "value": ""
+        },
+        "size": {
+            "type": "inputNumber",
+            "dependencyKey": "policy_resource",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "value": ""
+        }
+    },
+    "generic_eip": {
+        "version": "6.2.0"
+    },
+    "SecurityGroup": {
+        "version": "6.2.0",
+        "resource_id": {
+            "type": "select",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "cloudResourceType": "yacmp:cloudentry:type:generic-cloud::resource",
+            "queryProperties": {
+                "resourceType": "security_group"
+            },
+            "value": ""
+        },
+        "securitygroup_name": {
+            "type": "input",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "value": ""
+        },
+        "securitygroup_description": {
+            "type": "input",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": false
+                },
+                "inApproval": {
+                    "value": false
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "value": ""
+        },
+        "rule_template_name": {
+            "type": "select",
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "dependencyKey": "policy_resource",
+            "cloudResourceType": "yacmp:cloudentry:type:generic-cloud::resource",
+            "queryProperties": {
+                "resourceType": "security_group_templates",
+                "queryResourceBundle": false
+            },
+            "value": ""
+        },
+        "rules": {
+            "value": {}
+        }
+    },
+    "Generic": {
+        "version": "6.2.0",
+        "available_zone_id": {
+            "required": {
+                "inCatalog": {
+                    "value": false
+                },
+                "inRequest": {
+                    "value": true
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "visibility": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": false
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "modification": {
+                "inCatalog": {
+                    "value": true
+                },
+                "inRequest": {
+                    "value": true,
+                    "visibility": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    },
+                    "modification": {
+                        "inCatalog": {
+                            "value": true
+                        },
+                        "inRequest": {
+                            "value": false
+                        },
+                        "inApproval": {
+                            "value": false
+                        }
+                    }
+                },
+                "inApproval": {
+                    "value": true
+                }
+            },
+            "cloudResourceType": "yacmp:cloudentry:type:generic-cloud::resource",
+            "queryProperties": {
+                "resourceType": "zone"
+            },
+            "dependencyKey": "policy_resource",
+            "value": ""
+        }
+    }
+}

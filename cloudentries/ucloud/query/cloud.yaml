@@ -1,0 +1,38 @@
+CloudEntryType:
+  id: "ucloud"
+  name: "UCloud"
+  category: "cloudPlatform"
+  sequence: 140
+  description: "为了管理UCloud平台内的资源，需要您提供UCloud访问密钥ID和访问密钥来访问您的UCloud。"
+  # 图标base64
+  icon: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAhRJREFUSA3tlD9oE2EYxu+Pd62GckSCNdq66RClJWMFLVaXdigFzWAxi0LWDk4uJpmKQx0y2PxBgmsiuDj4D1y7ZLOBCkIWgzj0IApp7pKcv/foSVKKnYJLPnh533ue53u+93tzF7VSqejKCJc2Qm/fenzAiRMej+j/j0gpFAqG53lqJpP55+8hHyS6IY3skyscxYNriadaLBYXe71eJBQKvXMc5wbiPcJCdEdV1R/9fr9Bnmo2m++j0aiuadoK3FVih9iFXyB/0HV9AZ+f7L2GfgasEQ6H32oAYcMwnti2fQFiC4P7xCvqm3DnEK6xOU03ffJtuG1MZ6jLcPeIrXa7PUV+Cr4MPkdtkZ+1Wq1N9NopzCLdbvcAQRvTS2Bn2PQolUo9R/wbzCUrdHgF7ddarbZBtsEvEwemaTpwDhileZ39ebw+ERsy032I05ZlrZCniW9gJiNLlkqlpcMGpvP5/Dy1zHs2Ho+vkiNoG2AWpovUZ9knEzkPtkTM8/xZTyaT3+nWRnSXLiqdTucF19tnbOsIZrnZS8QXqR8QHzH6Bb8O/hoz0bpgD+E8On7Ds0l9C+6L67qPleDtYRwGhHTovxng5uBfeblcnhzgJge1uVxuQkL0hyGH+EsNTBKJhFetVn1zYer1updOpxXBhMtms0osFvN54YI60EoW7Kj27wEiGMUa+nDGBxw3gfGIjpvKEPYHk9QGClEhBm4AAAAASUVORK5CYII="
+  iconColor: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAn9JREFUSA3tVU9IFGEUf+99387sLuOqtWr/7FDoobK6ukQm/QOTCGKpxCDqHFJdCjrsoUN0CTwICRUEXtZDBmVSgR4r1pvbHyVaIUttc9M1192Z+V7f6Cp1kg7SZR8M7837fu/3mN97M4PxeFzAOhqtI/cSdanBmgqXJPr/EkEikfAxA3IsRgyeh2UPqx51nrwXkrmIWTlbwf6d9+qLXDHCK11202wOw7ZKDwyPhg867vxHVsFQtiCOGJInKy1OTf10Q996bg90d7eKW6/3tygbdwuh3oR8+ZGc42883Dj9YihRFSFbTWXyYo8QuA2RUpHwl6d47Eb+1I9fxk0Jc+dS6VCfAqcHWJ4h4HG/j4cAYcvcAh6Y6aXG2gv28cW8fGAg9BUUnJAC7jguXD3aMB0ZTFbHgdWzYIAqXUep+Ty1VVjwhMYmhUx9h3B5mbOoGHKEtF2TBuvDU5dSj8RdZprXk7S9aaoC12s5R1ut4Q4XIMMK6ljxYkWlWdCyFFwXjJwDkbrNs/ckqVeZLHSQIXgGAQIfvla06AY1PkGflALjfbr6fDhqNyOCRMKaHe2FvSQEaKLa/mzDSUKuMiWk9PjKn7+1mjT5BkYix4FNoxOhQ47ifZYJg+Ly9bMTI+MbM5LotEQV32mluxZc/4xpijbToFqL7PsscCv5ZHtZQL3UT5SVktoM4t76AHbNIdgo6KIpmcuD+NhngiEENQuCkRorcw2Km0FL2+RNf3kz9NYkDWa9OV4uDiL28LNfy0McLcYernh19o+ZnZ1j5hJ+MCaTSV2rcd45rvwPotF33Nu7S6u1bN69F3m5P2Mv9y/Y1QZe4XpY6WO3pqolidaU6De58zeY3K95TQAAAABJRU5ErkJggg=="
+  cloudType : "public"
+  # 对接参数
+  config:
+    access_key_id:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      #defaultValue: null
+      description: "访问密钥ID"
+      displayInList: true
+    access_key_secret:
+      type: "Password"
+      required: true
+      #defaultValue: null
+      description: "访问密钥"
+      displayInList: false
+      encrypt: true
+# 启用的资源
+CloudResourceTypes:
+  - "compute"
+  - "region"
+  - "zone"
+  - "network"
+  - "subnet"
+  - "image"
+  - "instance"
+  - "instance_type"
+  - "security_group"
+  - "volume"
+  - "volume_type"

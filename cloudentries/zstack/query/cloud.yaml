@@ -1,0 +1,44 @@
+CloudEntryType:
+  id: "zstack"    #和python约定的id
+  category: "cloudPlatform"
+  name: "ZStack"
+  sequence: 70
+  description: "为了管理ZStack平台内的资源，需要您提供ZStack访问用户名和密码来访问您的ZStack。"
+  # 图标base64
+  icon: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADgElEQVRIibWWT2hcVRTGv3P/zJvpEJkQpgGdIG104aIVWjEqQ8U0dKEr/xCZghGVKlI0IKRqUBGbSsFFs3MhosUIIaDJOlnoUJLWRXAXkCwCDUJCkjeGzMvMu+/ee1w4r9TWNqOmB97unu93z7nfO/fS1NSUxD0M1e7CmZmZU977o4VCYaK/v39tXwHVarVUr9e/k1J2bW5uPhRF0dv5fJ7byRV7LYiiiNbW1kYBdBljYIx5pVqtPt6OeFuA2dnZE0mSnHHOAQCYOdje3h67fv16sC8AKWUxCIKfiQgA4L2Hc+6ZpaWlY/sCGBwc/DFJEpkChBAQQlzr6en5dV8AExMTZ7z3J7z3AAAiclrrkXK5fFxKeXav/Lu6aGFh4WAcxx+m4lJKKKUmBwYGfqnValUp5SNKqRlr7e//qYLV1dVzzFxiZrRa9Aczj3Z3d7+cyWSe1FoXvPcf3E3jjoC5ubkjSZK8mbpHCAGl1KXx8fFakiSfee9hjAERvZbL5Y7/K0A2mxVbW1vnmfkAABARiGi5s7Pzi8XFxfeDIDjknAMzQ2udNcZ8CiDTNmBycvJZa+1zae9bzvloaGjofmZ+xxgDAFBK+TiOzzHzewBMW4CVlZUDURSdZ2ZKxaWUP1UqlR82NjYuKqXuS8/EWhsByBDRKSHEWa11x616t7locXHxLWY+cpMtTSaTGcnlck9ba19IkgQA0IJ0aK3HiAhaa+zs7BQAXLhjBdVqtdRsNkduseW3w8PDS41G43MiYmZ2ABwAy8w+SRLEcYzd3V0IId4NguDQP1YQRRGtr6+PAjiYtoCIVkul0ie5XI6DIHjDGJNIKdNzYedc4Jy7rJQ65pxDEARdxpiPAbx+G2B+fv4xY8yrqS1bIrVarfb88vLyV0T0YDabfbTZbAIAnHMgIhZChOkYMcZACFHRWn8Tx/GVmwEyDMMxZr4xIZkZ3vuj9XpdFYvFB8Iw/J6ICkHw9yFqrYW19kaOEELHcXyhWCye3NjYSBQATE9Pv2itPZn2vrV7ALhWqVS+DMPwa611odFoYK9IkgSZTOapMAxPA7gsC4VCdxiGk0RUAP76qVrinM/nT/f19R1m5ktEBCllW59SCtbaJwBMqt7e3oc7OjquWmuvpLuQUpJz7rdyuXzVWvtSNpu9GMcxp73eK7z3yOfzMpfLHaZ7/arY8z74v/EnA/uwyKXc7ugAAAAASUVORK5CYII="
+  iconColor: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAA9dJREFUSA21Vl1oHFUUPvdvZic/bUJMqSZaW9uXxqSYNpYqREugggHBWlALIqKx0mIfhLSaVqltqgEffFDwQbCCChJRxCe1pQqCSQk16sNSsTWVpLVpmmzX/ZuZ++eZ2d3Sn5hdJT0wA/fMvec79zvfOQwZHh5mcBONVxt799HMloLhHXcugY/3bfIuVHuOVrPxzROydTYvP0orOnR21j/QnEySas5FeyoCRMFOX8oOSOBN4Gchq+Cp5y7ece+iATwx1dKdD6EPlMSYFjRQ93xGDh5Lem41IBVvwBhr9hLie6ClrVpCqMnmYxdTnYsC8FWf/EKHASqtRDvlIIgZvb8GxhcF4KF3SZ8PohuMiuMxYrXnkv6Nmx9cf8p27KoEsiBF7/wcLMtI84rVxeDAHPCY/fToxpMnptO5IQ3s9T+grWUhkAUBfjmX3xMCbwVrkCEKnOjLggQD3zT1P85dbxMTboNv2Mv/C2Dfj7I9J+H5onowPuOQoPbtkYHtKV+Zg0ZrUKEPlvJnJsSG9f8GMu8NVqVS9Pxs7hBKsiaSJlAGAtTv7X7+rc9+Te0VjrfSIG3WWmDcSRSkPjAFrc58IPMC9I6JhwsaegElGRlFehxi9+94YdttypIXlQxiP+PCqDC/x1GFl1phKoyd171uAPh6wq25XAgPGVvSJRPgMvPdB480fX72Un4IM15ijQFCCGgtcxjPCVliS1J37Don1tRfFx9uGHZfJqd3YGHbwUQJEWBgw1pK+//knQ+ApluVRD8GR+LwK6nnIjEYrblwYC5jG1o4HL4a5JobREPtb2n6r8iSi0iWH473Lk1mAvkGZo20G43ka4RQ0UKpEGRQAD+fBcL57jPQuXJegOJQyw8owpeVZelYNdl2e/1rp5u7bI3gzwqVXusREz91XK9NuHodNuBPFBOJcDl3mwKjX70a4ApFfbOrN+Rl7mnQqPnYkB5GUlOzwaMzM2Pv+/buFcJtXBegNGPTWHwUEiUwV3RALFtK+ZNnxD1H7pLjP0T+MgD7K50bjCYl4LyMzWrwbaIjnfO539jdYufMJ5bwBi684vfS2+CU1fGkRUGjbAllouCHh3PLu3pqZ8ZkXIOd32YfKyjaU5ZlfBaHmmuDUVTPexNz6mDUtUEhG/MdcV5+dHmMlAAjCTPh3Td5IdgeuUjbziPLT6X8UQ3OCqxbaRvqA+t5i8e792/tEemAHI+VgxlWYwy7PvRz044Nunj76lvX1KVyI5hJzFkUgFBOUB6/7e0kI5NKbatLeEMyzJc7ozKGDcGrdVljrbeK3Oy/imv6oHJq/33HP2vLvoI6EavHAAAAAElFTkSuQmCC"
+  cloudType : "private"
+  # 对接参数
+  config:
+    url:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      #defaultValue: null
+      description: "认证URL"
+      displayInList: true
+
+    username:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      #defaultValue: null
+      description: "用户名"
+      displayInList: true
+
+    password:
+      type: "Password"
+      required: true
+      #defaultValue: null
+      description: "密码"
+      displayInList: false
+      encrypt: true
+
+# 启用的资源
+CloudResourceTypes:
+  - "compute"
+  - "network"
+  - "subnet"
+  - "flavor"
+  - "image"
+  - "instance"
+  - "instance_type"
+  - "volume"

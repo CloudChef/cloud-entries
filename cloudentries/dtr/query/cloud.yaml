@@ -1,0 +1,47 @@
+# 类型
+CloudEntryType:
+  id: "dtr"
+  name: "Docker Trusted Registry"
+  category: "artifactRepo"
+  sequence: 240
+  description: "为了管理dtr制品库资源，需要您提供相关的基本信息。"
+  icon: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACXUlEQVR42u1VOYtTURgNuOACItqrpYjTqKDYCiopsmey7wvZE5LwskE2m0DIFOnyA1TSqAwpbIYUYmFIEEamcrC0cwoLK/HznAsjGmRw1CmUCXzc9Z3t3veiE5EjB1m6Q4J/i2AVv2Aw2EITPhACj8fzrFAoiM/nW0yn06N/TGCxWNxQq9lsNg3gmsvl2ozH44L25TJBNps9o9frV/ZFAOBXUCuIRVKplPj9fnE6nYL5F8t7sebN5/M7Dofj1p4EVGYymVatVmsaQG+9Xq+43W4Jh8MCF6qwts11o9Ho2HUSCoUeDAYDicViz/H8HRBda7fbp37qAA+/ITAVMxKCIirVckxXXDebzVu7zwDQ0mq1vpRKJclkMhIIBD5DwO0fCMB8HRHY7Hb7NlUTCIoUGHJXLcecJxn2vQOwHULCIH6cy+UkGo3uwM1rzGfg4LgiSKfT5wF8CfWoWq1KvV6XZrMpUKRazrE4ZlUqFanVaqrf6XSk2+1Ko9FgjB8NBsMNKL8C8BPqDPr9/mlEYsKChluzzgOleioFsYqEB8u5ZDIpiURCuaED9nn4UEw3AuCHOLe7aBuI7/7a2tpJ3dK1dOzGAqsSiUQUSLlcVmMeNIt9FoG5H3mTYIH95/a8pniJzkLBJkHohERUqGnaN0IWgXkBvgPfQgqXf+lFg72bvV7v/cbGhiwWCxmPxwqQhAQjMIt9xgRBT+D84r7eZICtDIfDp5PJ5NNsNpPRaKQcUDHPAjfkA1SvA9gwn8+P/fanAgd1tVgs+nFTaoitjhiSqHtwcOGvfIsO/3D+D4KvaZXwtYbkV/IAAAAASUVORK5CYII="
+  iconColor: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADNElEQVR42u2VSUxTURiFX5xxRA1UNG2VoVWEaBFUnKISi7hQA1YoYwEHCG2pVYpthT4LFbC0QIFiAYXU4ADIpBBSwDqAWhUlGDQqGt24k4ULExPj8Vp0oTHGcaFx8ee/593hO3d8FICxfzKo/4C/C7By94GdgQcNmuCUjKQ/AuAdyGvxN18AT3G0H3b7uF8GLE+WRi+VZikCUzIVy2VaxRJZziD3aB2WyHP7vgRIJJLpW7Zt8/8hAFd62MHMPQ7u4Ur4Gc7CR1OBedlmcKX01S/brpDrYheXnB9ZL5Ks/DaAOAtKSNsZsCczbZFE85hNW8BRFoGrO0FyMdiaY1gkyR7+UB+UKI78NBOe0pSz4PIb8LIrO9fG7A3ZmJgWQNP0ZOrrzul7LG0VOMStb74V3upSzFOVOLNvnhWcrDI46yWaoU991u2ShXueG37nevo+XKwDYOSdecuPil31GWBNQuqyVXuVO7jpucPsLLIUHwbU1YJDMktdBo7K5NRcUmZnV2ChVPt0TXKGIFhCJ/Ho6tNux29gpqlzhKFvuuufniuup+kJTkB8mnJ2VJRovmeG4ZR7w2NwTt6BZ/0jLGh8QmIYPrW34F17+6N+Ap8aB7ytpA0pezU/g3fLc7g1P4drUfuriE2bAmPCQnxrRKJJzj3Q6/VT+ELR9pBwocJvV2ab25EGsFRmeBha4V5xCYziDsxVVYCpPgZGWRcYpTawlOVgHrJgjqkT7mY7PHRnwZQbsSxeXBcWmcBfL4hRhwpFm4319S6fLVFQYnrkxPzzoKpukrgBynIdU6t6wam5QrSD6L7RqHaM6nLyvdAGyngRc+XF/fsEglnfPKa0SOTKlBUOzihsx1TDBXgYW+FlakNAlW0UWHmdAK6BMl8FVdQDSt+FMYYeeOw3DUUIhQu/66LxI6JWHCyxvGhwDODK/YdQ9z4AVUoGLL0MqsRO3HYT191O11O0DfAU65qiw8PZP3STBXvE/jnV1uY6e+9r29Aj7G6/g2nGLowv6IBLTiNmqk+8nC/Tt62OTd0Ki2X8Tz8V/Mg4su+aeEWBQblhn1ZFRGpwnDg0XiBg/Za36P8P598AvAcsDQiFQz6vfAAAAABJRU5ErkJggg=="
+  config:
+    host:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      #defaultValue: null
+      description: "访问地址"
+      displayInList: true
+    enableHttps:
+      type: "boolean"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      #defaultValue: null
+      description: "是否启用https"
+      displayInList: true
+    username:
+      type: "String"
+      required: true
+      description: "用户名"
+      displayInList: true
+    password:
+      type: "Password"
+      required: true
+      #defaultValue: null
+      description: "密码"
+      displayInList: false
+      encrypt: true
+    email:
+      type: "String"
+      required: true
+      description: "邮箱"
+      displayInList: false
+    namespace:
+      type: "String"
+      required: true
+      description: "命名空间"
+      displayInList: false
+
+# 资源
+CloudResourceTypes:

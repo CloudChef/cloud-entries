@@ -1,0 +1,9 @@
+# Copyright (c) 2021 Qianyun, Inc. All rights reserved.
+
+FC_INSTANCE_STATE_ACTIVE = 'running'
+FC_INSTANCE_STATE_STARTING = 'starting'
+FC_INSTANCE_STATE_STOPPED = 'stopped'
+FC_INSTANCE_STATE_STOPPING = 'stopping'
+FC_INSTANCE_STATE_CREATING = 'creating'
+
+FC_VOLUME_STATE_AVAILABLE = 'USE'

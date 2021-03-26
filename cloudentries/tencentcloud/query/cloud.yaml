@@ -1,0 +1,44 @@
+CloudEntryType:
+  id: "tencentcloud"
+  name: "Tencent Cloud"
+  category: "cloudPlatform"
+  sequence: 130
+  description: "为了管理腾讯云平台内的资源，需要您提供腾讯云访问密钥ID和访问密钥来访问您的腾讯云。"
+  icon: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAA29JREFUSA21lF1Ik1EYx/e+myUE23Su3FofoIQNSiLUKDTIi+76ROrCICEJuknwIsiwLiqti0JCyoqkrkrqIqMoyCJrRkVCVlYSwYTWaHN+pAybbv2e1ynv5qwu3IH/e55zzv/8n/M853mP0tbWZjSksalp1Nak0+7A9D8RDA4OLo1Go/lwLaqq/qYPjo+Pf8rNzR371/6/OhgeHs6JxWKHENmD8Cp6JS74KzMzsycUCl3w+/133G53bC5Hczrg1G7EmxVFKY1v9tL7wUKwkrVNrG1wOBxFgUDghN1uD8d5CV1KB4gvhtWKwHr6fvpjCHaNjY35TCZTBq2AiPaxdhDUMkdnOCKf5JbSAaQDQMS/k/sqm832TDZmZWVJJ3fwtre3t9vpdIZwXM+4dmho6J7Van0hBH2b5SAYDJqNRqOcLsopGxDVxPWbxJa8E+k5zCVEaOMgC5I5Mk4oU6/Xm4n4bubzwUgkEnkspLkazkfhNCB+g0giAwMDy5K5Mw5Y3Gw2m29BuAikWqw4a+WUlaRDxgmNi7WTltPch4cI2on2KfBQWedZc06TFXkqmNwO6RqTFvAT/ADZQE4kJdjE5kaLxRLENiC8hhM3YZaBCOgD8uTkgQzwivV92dnZ31ROWIh4M5MWJi8Tbgn2xomJiWLmj2KPghrW5AAG+GXY7Zgi3o29Y2RkpAR+EeOdMgdE4yT/yCIThMMI5QIPZVjjcrmkSqQFwFmi+8LaKez72Fuwr2M7wMvJycnKnJwcLydlqLWHRDeI5iN4u0jfTRVDytFA/0AnPkXny+a7dKWgD45EIeJdiFeJOHZC8/l8r5n4CPg9TGvlkrXnmtSEE5i6AScqBnJyF+ggHXsR/6qjzJhSvjQtC2gaVQbv46tl5HemqqZ3kJatnPwqYye9h8uu5lnwTa8n91TjangFzEfQfiOCV4Bc5DY2H8eJ9rsylgsth3wJU9Lyjg0VVFK/rKVq5D+P0j7Dmh10hMPh50pLS0uGCBNOXXyTCMnFRhmXx8my1M/8E6DAV+HLny4Z0P4R+GY464CU9gCo4EfsNPGJ8mM0ciFCrAZStoX0yW058/uBNo+21k+PdeTPOK2jODplTnuL4k9tPfm7zcYVHC7lu6ITmWVKMDiTp+OD/o4SHjtezR52CuatTcU5b3KzhdLu4A9X6IMLTQ3cTwAAAABJRU5ErkJggg=="
+  iconColor: "iVBORw0KGgoAAAANSUhEUgAAABgAAAASCAYAAABB7B6eAAAAAXNSR0IArs4c6QAABMRJREFUOBGNVGtMFFcUvnfuzO4wwO7yXHdxeSvgRhSkSrBiiVT9obEJaBsskNjgsyWRNqaKjSRaaZvG1kdTbU1DxVTKw5S22FgkNSawiFbEuijv8lhgF5fXvtidmb2dQbrBLbQ9P2buOfc75zuvGQj+h3z9W9vSmvuS2FEjKaexwxURLX12/iD3JBRqrf/lDv8NcO7GnZCKeyGH+kyBbzgIyXKMfCHgAICk1eJDWh+lqriz1zXba+EuvWuxOIsSHPpRr711h/myx7pkg0QCgBQ5+6XIMcpjKOV4MtKCgxSMY4JfGTL5WdUp+oQaqu0LkSxIcKy2V3mtUVLXZw9bEwoNA6uWuIo3pzCNuzffM06DVHShxhzX8pjMazfK9jsJGZUcZvq0ece7xVBbtWglHnIsdCD9o+7jxEEWBxdZht4uf/KKaPMA5g74XKw082RHibTQjuXvGHH2Gf0Gb4yok97Gqvr7sr6f/PIonnWvi5k+fSE34fYFb5Cgw8JupxkHn1lbMqS0O+TBJGsTGvlPIeabKgcHferIwGyjDMeqYsanVyybqheyfwEzHx8Ig2xF2cTpIwfdZUEvR7J763vC8aU11HzMbOlikFxda3o79n2vbwZsmaD9SZpjQRSy6eL9HBevnyqtgFUv9rekzRL6a6e9yGCn3nzGc2E8T4Ng0jUc6c9VF6xkP8mP0xhEIij29/Wm1h23WbpskvaRy1mXiQF4hHXDQDMJNSRy4hQSfZ6vVpTuUanGRKdjv/cmVrbT5wewKp1gbawfBTspzCMrT8S4KIaKdfff3adFuwtTwnvQWGvn6gYbeW2MpILX8ZOXDsSo82hT99mceMW3TpYbNzrhui6p/8Ze84h21PjzD8NXO9Oq2+nqIUKZGAHGHuxc7ihIttuL18dxX60I5XVDxsmEbhT+0rMph9JQ9f5NmPWgv6zGQuUnSu2NbW7TqzAtzSFmKYpQHcrt6NveYpkuDaeIcyumAjqv9xDlI0iliiZNuj1JkpyjCQF/zoLnHkeah1Iv6pl6CUXQWUtHs4ku1pUCKQKE+/vVgbS0mflgYUB8eVxU7SnlyPr4GU1HRZe8bASrVMt8h5vyEqz53sFF348dl+9rZFg/zjPkOOe7inBCBwKQAyx2ezL3IsE3u5PXVv5BlpsBszROMtqQpbDu+iAppms+znPOKOExplwQ88LqSBARTkkeYcyBCdvkRnB4J+0Bzh0Km0xbb/ZS35ggrY71MzbmRE289eGmuNkN8caKeqnenGCwcfH+yMoyhLUF7NN3bArQ6S2+unZ+28OnJwfxVKC4WeLqHr7Vkxl1ZWwAfYex9nvDw+beZuVCQUWbOK8vmrpjE8uH6+BVET/yy43mLhnEJSVkxrbXTtwFsuMcywE1YNv8SfiUmVS4+w1kphHIQ3woFqyW2wY4F25ATggxBAQCwO1CboLAQoPdGEyxUG7lUNIEEaRRoGnzlmiQdSUt4M7shzaMMZPX9ORYGyT22mlpCLAHA97kBzjh1zX7Gbuf5y1GxUKqHhG953SBCKAZB5BL7E+3qi1HL2dE1QrXQi5zItyT+x/3am+b+Yhxo1zisvr8ffX8jYShAQR4gcRbRBMjlKeinNaCdMXjAxrGM6O/AMoBEGYWS2vxAAAAAElFTkSuQmCC"
+  cloudType : "public"
+  config:
+    access_key_id:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      #defaultValue: null
+      description: "访问密钥ID"
+      displayInList: true
+    access_key_secret:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      #defaultValue: null
+      description: "访问密钥"
+      displayInList: false
+      encrypt: true
+    app_id:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: false
+      #defaultValue: null
+      description: "APP ID"
+      displayInList: false
+      encrypt: false
+# 资源
+CloudResourceTypes:
+  - "compute"
+  - "region"
+  - "zone"
+  - "volume"
+  - "volume_type"
+  - "network"
+  - "subnet"
+  - "image"
+  - "instance"
+  - "flavor"
+  - "security_group"
+  - "snapshot"

@@ -1,0 +1,61 @@
+# 类型
+CloudEntryType:
+  id: "gcp"
+  name: "Google Cloud"
+  category: "cloudPlatform"
+  sequence: 125
+  description: "为了管理谷歌云平台内的资源，需要您提供谷歌云的项目名称、访问密钥ID、访问密钥、客户端邮箱和客户端ID来访问您的谷歌云。"
+  icon: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAABDxJREFUSA21VV1Im2cU/vK7RmM0Kv4ka2rtMNqihIAi7KJeiExhq4yiV2WyyaAyGtqLQtvLXo/99GLd3baLsQunQyqo+McckjEmJouTRltM/KiIxp/GmMTEZM/zLW+W1LkfaA+83/t+5z3nOec8532/T5VOpy3SKxT1K8RWoLX/JcDY2Ni5UCjUcHh4+AYqThcWFj6prKz8vb29Pfhv/qp/omhwcLB5a2vreiKReFOtVhtVKpWCBx8plUod6HS6n0pLSx/29vb+clqgvw2wsrJyZmZm5mY8Hv8QoPpkMikJcAHEIFqtQkBcr9d/2d3d/VlFRUVM7Iv5RA92d3e1AL8H0I+Oj4/1GAo4AqQ0Gk2Cg2sG5B7Ga6juxvj4+F36CmAx5wUAx9Lw8PDVo6Oj9zEEcBoAUQB6MA9nhjejS4MmxQ6BPpiYmLhKjFzJi7i6ulp6cHBwi9kJwVouKSm539HRMYnGxqkPBoNnpqen3wKFd0GPlZWQskgkchMYE01NTTvCP1vBzs6O2u12X4GxdX9/XwqHw2kEkzCeQ4oWFxfNsNHQ0Wazxfr6+n7AfB2vm6hGoQv0ve7z+d6JRqNZXGUBhWp0dPQSTsw1AEs4NXRQkSaMSwD+eGFh4eHIyIhDZMa5s7PzV1D0LYAVNU4W7a/Nzs5eJCaVSoCpqSnb2trapzCw04gZkSbOFOpAQfP6+vp9j8djVJSZR3l5+TgORJL2pApz/ebm5ifz8/M2mqgBrIfTHYDVZwwIHEZmfozHWO/TGSIXFxd/U1dXF+WLEOieIfgyqgjTjtVjfVGW5dt7e3s6TWtrq2N7e/sewPU0wGYUjfu+qqrqC5PJNIlGHkNvKigoeOByub5D0LQA52w0GhO45X5QgzjpOqh0TBRVn0X/RjVtbW1vY/MKaSCXAPN0dXW5wO9Th8Mh46b+DICnAwMDI7nAYm0wGFJ2u10uKipyBwKBy6jYQiwkwgu6oEaGVcIYm7ydPgBHhK6hoSHS398/Kd5Pm2trayNI0EcMCtkAdrUaGQQZkcIZ5TmHhobOK4r/8ZibmzsPfyfpoRAL2AGt1Wr9DRSEELmMm+CxHmfZtbS09COqyWsoKcTZl9CjbOgMoAE3+DJAs6cQ+hAupk/b0tIiLy8vPwJf7zEqToEexu8iUDPKzAvAjxt6khcAdkzKAP+zsFcuBGnCeNTY2Chrq6urk+Dva1xxOwxbY7GYBGMNjGvIY64wWybBQeBcoS0HwTG7LRbLV2azOal0pKen5zG+Hy5Q8ACOco6h4iScc+cXwfmOfRn0fY6EXfgZ+RUdALP/ZPy5yv1+/wVckCYc3XPIuCAXiD2oqal5kSIVjmQEmQfwUfTin/DE6XRuC78TP5yNjQ2t1+s147tkwjH7q5vwYA/KysrEj0Zg8MwfoTfPEXyXtGQ3sDgRIHfzZaz/vBUvA+kUjD8AZJBE80glVqcAAAAASUVORK5CYII="
+  iconColor: "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAABO5JREFUSA21VGtsVEUUPjNz5+7dbem2JU0pfdmCbUGsWArGVGM0MWo0qBGj0WATEyUm8iiiEfrDH00EiQ+QGAVJlPoAjBWiRaKCYIAEQo1Bax801BQXlkJLuy27d++983DmlrKsFeEHnGT2zs6d+31nvjnnQ1LKqXADA99AbB/auBaC0XVNpdDRPoMlh6cLiaQZDJ8wqqo7gssbT17te/R/Eo0uf2Gu6Ol+iSedOgoyEwPy8QRI8CS6QEKBg3J65UfZ73589EpE/0ngtO21EmveakCx4RcNQKYrNGR6aCqTYJCCO4P50zYOrN6+vrYEkum7ACbeQW+vEX9zdaM5EntZCGkmL4ITBCKAsKeHnmtClzGI42Dgs/znl7yxg6/qjcIEydNOkEgkILnoqadptP8dV0o/awJIAkJJTo0uMGmPzkg4XgVlXmUSm9YHVa+i/YXzIYAETAm7r2xcGNwWCqXOkcZotLTkyujAcqFRCAdD6SAFjeCC8qZgw8o9VnW1oz912g5afMOaBzdl16/6pWh+IfVskITC2SHZ0NLh/riw1jw/TpEisE9hu6350cw55wpF2TAEs12JEVIlQ0Zo+cAkL/R5DtiLzkFwGg/U3pWELa07u7ZBxOxzNkmM8yX3QNJg0fdH7Pn3lZvNhbkgNMmYRPYgYp31s+SZA+uNzEQll+qdHKsYg/jbgEPgKFh1TWTujl8BUhosWG+viDmBBsFswJgCIbLr9jK2dMXDGX9ODoL0L5n1NZbIkZ/X0bAC9xQgV8uaQA3mqeEqxQxnLh891ASnvsvUlOMxPU/8IIXLFDoI4QGXtOq3v4z3Ptlrl+g9GIYPm3Dmq5WUelVMFRlSuISgUcMwjqvRreYxpE/hkQi2ipsht9YeB9fPW8vgNFbnR5iOKkVBn4QDnbmvG17rjAIlry+IzybOsUbJwdSiKEBbiOwWadV8KHHxHskvcGK6WQ6UbjDrlOo0N60l8jJNryfKjydU2bmcVKhjq54U6jSo2LbZLsQPzVqMRdf7TNWHKgRg3GwTNzc/Eyh6Iu5nGmnJ4GfW3klqj+zx/1/h56dOJ+PtVrZVCHOOUDpjIwBTs+3F2PVGp1x0AED6RlBG+yVwDaaIrgaut90/IxAPYGhHOkvdQQos4fACTIzsk0oeP/SToEQNHKsvH1u59t/Vu1mZx0mNLlcdUjDICtI+g4bn/cHPdg5iIiZzn8CuOtR/ZNna3Uv2h5CRdqHAMyDUv0S18qTLmAUwhoLn4/IeTxiVUlUSwsrBpDdYkcfbDShcFoHzO1sxDNVrhznOwubXibzHouLsHAOhywiUY7AsyIwpT2W6P8fvWhmelEHGebGq77GuwQRChLU+OY9GDMiZyWT43i0Q21XVK807Ntsz4ICXTxAWNzHlR6kQKiuuslXy+lZ32Tt/itRV+jUOFLHDNaXk0/ICy08FjNu2d0PHoqVfnow+e4BlPI4QL1J9869Qnws1sG5AnWiKQPeOagBV4hCZZMlv6irIFw0P0IgGSHnRzI1/TxVbN1cP9uyLxvurHc8tZZKkPEG1D5AsCJguYK49z7ca32spIXHDwH2FYfL77BJ+4rm76YAG15Fm13ohOhQ1vj19OOfUcCTLEdjUa5eCWWDFHlHNYl1a0hOLBtz8yWTkoVv4UEGOpURMxQSC1KvrM5ug9PWBTaH8Ax9CNGThlmxvAAAAAElFTkSuQmCC"
+  cloudType : "public"
+  config:
+    project_id:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      #defaultValue: null
+      description: "项目名称"
+      displayInList: true
+
+    private_key_id:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      #defaultValue: null
+      description: "访问密钥ID"
+      displayInList: true
+
+    private_key:
+      type: "Password"
+      required: true
+      #defaultValue: null
+      description: "访问密钥"
+      displayInList: false
+      encrypt: true
+
+    client_email:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      #defaultValue: null
+      description: "客户端邮箱"
+      displayInList: true
+
+    client_id:
+      type: "String"   #String, Integer, Float, Boolean, Timestamp
+      required: true
+      #defaultValue: null
+      description: "客户端ID"
+      displayInList: true
+
+# 资源
+CloudResourceTypes:
+  - "compute"
+  - "region"
+  - "zone"
+  - "network"
+  - "subnet"
+  - "flavor"
+  - "image"
+  - "instance"
+  - "instance_type"
+  - "security_group"
+  - "volume"
+  - "volume_type"
